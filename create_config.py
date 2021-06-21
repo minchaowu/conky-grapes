@@ -32,7 +32,7 @@ import pathlib
 
 # Inittiating variables
 home = expanduser("~")
-working_dir = home+'/conky/conky-grapes/'
+working_dir = home+'/.config/conky/conky-grapes/'
 src_lua = working_dir+'rings-v2_tpl'
 dest_lua = working_dir+'rings-v2_gen.lua'
 src_conky = working_dir+'conky_tpl'
@@ -67,6 +67,22 @@ couleurs = {
         'black': '000000',
         'violet': 'bb07d7',
         'lightviolet': 'a992e6',
+        'awesome': 'FF2052',
+        'azure': '007FFF',
+        'darkorange': 'ff8c00',
+        'chocolate': 'd2691e',
+        'wheat': 'f5deb3',
+        'navajowhite': 'ffdead',
+        'lightcoral': 'f08080',
+        'gold': 'ffd700',
+        'sienna': 'a0522d',
+        'goldenrod': 'daa520',
+        'orangered': 'ff4500',
+        'lime': '00ff00',
+        'darkred': '8b0000',
+        'khaki': 'f0e68c',
+        'darkkhaki': 'bdb76b',
+        'tan': 'd2b48c',
         'ASSE': '006a32'
         }
 
